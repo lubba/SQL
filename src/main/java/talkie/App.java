@@ -35,6 +35,7 @@ public class App {
             } else {
                 printQuestion(question);
                 printAnswer(replyGenerator);
+                
             }
             System.out.println("\nLet's continue!");
         }
@@ -45,6 +46,7 @@ public class App {
     }
 
     private static void printQuestion(String question) {
+    	
         String questionOut = "Can you " + question;
         if (!questionOut.endsWith("?")) {
             questionOut += "?";
